@@ -1,0 +1,34 @@
+# CODEOWNERS file for analytics-connector-360
+# Global owners - will be requested for all PRs
+* @Armor-test/team-security @Armor-test/squad-search @Armor-test/unit-test
+
+# Directory ownership
+/data/ @Armor-test/squad-ux @Armor-test/unit-test @Armor-test/dept-test
+/tools/ @Armor-test/grp-ui @Armor-test/squad-ml @Armor-test/dept-logging
+/middleware/ @Armor-test/squad-tooling @Armor-test/dept-security @Armor-test/dept-automation
+/controllers/ @Armor-test/dept-notifications @Armor-test/team-core @Armor-test/dept-logging
+/pkg/ @Armor-test/team-reporting @Armor-test/dept-data @Armor-test/dept-ui
+/static/ @Armor-test/squad-mobile @Armor-test/squad-api
+/examples/ @Armor-test/squad-mobile @Armor-test/unit-governance
+/dist/ @Armor-test/team-security @Armor-test/team-frontend @Armor-test/grp-ui
+/common/ @Armor-test/squad-product @Armor-test/squad-apps
+/ui/ @Armor-test/dept-release @Armor-test/dept-automation @Armor-test/dept-notifications
+/security/ @Armor-test/dept-test @Armor-test/squad-ml
+
+# File type ownership
+*.config @Armor-test/grp-payments @Armor-test/dept-data
+*.cpp @Armor-test/squad-research @Armor-test/grp-search @Armor-test/unit-test
+*.css @Armor-test/team-logging @Armor-test/team-governance
+*.json @Armor-test/team-core @Armor-test/dept-billing
+*.yml @Armor-test/dept-ui @Armor-test/dept-security
+*.tf @Armor-test/grp-ui @Armor-test/grp-reporting @Armor-test/squad-frontend
+*.yaml @Armor-test/dept-ui @Armor-test/dept-test @Armor-test/grp-ui
+*.swift @Armor-test/grp-reporting @Armor-test/squad-frontend @Armor-test/team-reporting
+*.h @Armor-test/team-reporting @Armor-test/grp-ui
+*.properties @Armor-test/squad-product @Armor-test/grp-reporting @Armor-test/squad-apps
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
